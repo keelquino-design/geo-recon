@@ -1,7 +1,7 @@
 import sys
 if sys.version_info<(3,0):
    sys.stderr.write("\nYou need python 3.0 or later to run this script\n")
-   sys.stderr.write("Please update and make sure you use the command python3 geo-recon.py <IP NUMBER> <COMMAND>\n\n")
+   sys.stderr.write("Please update and make sure you use the command python3 geo-recon.py <https://www.facebook.com/share/1EEFB6MJBM/> <COMMAND>\n\n")
    sys.exit(0)
 
 import requests
